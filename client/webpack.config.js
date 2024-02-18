@@ -25,7 +25,7 @@ module.exports = () => {
 
       new InjectManifest({
         swSrc: "./src-sw.js",
-        swDest: "servic-worker.js",
+        swDest: "service-worker.js",
       }),
 
       new WebpackPwaManifest({
@@ -44,6 +44,12 @@ module.exports = () => {
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
           },
+          {
+            src: "images/icon-192x192.png",
+            sizes: "192x192",
+            type: "image/png"
+          }
+          
         ],
       }),
     ],
