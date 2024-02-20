@@ -4,7 +4,7 @@
 
 Module 19 - PWA Progressive Web Aplications - Text Editor
 
-This application helps you to create notes or code snipets with or without internet connection so you can easily retrieve them for later use.
+This application serves as a versatile text editor, designed with Progressive Web Application (PWA) capabilities. Whether you're jotting down quick notes, drafting lengthy articles, or storing snippets of code, this tool empowers you to do so seamlessly, regardless of your internet connectivity. With its PWA functionality, you can install the application on your device and access it offline, ensuring uninterrupted productivity wherever you are.
 
 ## Built with:
 - Javascript
