@@ -20,12 +20,12 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Webpack Plugin",
+        title: "text-editor",
       }),
 
       new InjectManifest({
         swSrc: "./src-sw.js",
-        swDest: "service-worker.js",
+        swDest: "src-sw.js",
       }),
 
       new WebpackPwaManifest({
@@ -44,11 +44,11 @@ module.exports = () => {
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
           },
-          {
-            src: "images/icon-192x192.png",
-            sizes: "192x192",
-            type: "image/png"
-          }
+          // {
+          //   src: "images/icon-192x192.png",
+          //   sizes: "192x192",
+          //   type: "image/png"
+          // }
           
         ],
       }),
