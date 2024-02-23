@@ -20,8 +20,14 @@ This application serves as a versatile text editor, designed with Progressive We
 - stackoveflow.com
 - ChatGPT
 
-## Video Link, Live Link and Repo Link
-
+## Screenshot, Live Link and Repo Link
+### Screenshots
+![image](https://github.com/TorresBones/text-editor/assets/143949132/9d4d6b4e-05b7-4774-8fc1-f4f9fc266618)
+![image](https://github.com/TorresBones/text-editor/assets/143949132/26408992-c9d8-4e4b-96c9-a9f57bfe7908)
+### Live Link:
+https://text-editor-vv3r.onrender.com/
+### Repo Link:
+https://github.com/TorresBones/text-editor
 
 ## License
 MIT License
